@@ -1,0 +1,372 @@
+body{
+    background: url('food-background.jpg')  100%;
+    background-repeat: no-repeat;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* navigation bar*/
+.nav-bar{
+    display: inline-block;
+    padding: 1%;
+    font-size: 120%;
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-family: cursive;
+    cursor: pointer;
+    margin: 1%;
+    float: right;
+}
+.nav-bar:hover{
+    color: #ded0ba;
+}
+hr{
+    position: absolute;
+    top:10%;
+    width:100%;
+    height: 1px;
+    background-color: white;
+    border-color: black;
+}
+/* end navigation bar*/
+
+/* vertical nav bar*/
+.vertical-nav{
+    width:14%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:0%;
+    left:0%;
+    height: 154.2%;
+    float:left;
+    border: solid black;
+}
+.vertical-nav h2{
+    font-size: 100%;
+    color:white;
+    display: block;
+    position: absolute;
+    left:0%;
+    top:1%;
+    text-decoration: underline double;
+    text-align: center;
+}
+.vertical-nav a{
+    padding: 15px 20px;
+    font-size: 100%;
+    color:white;
+    display: block;
+    text-decoration: none;
+}
+.vertical-nav #content-nav{
+    position: absolute;
+    left:0%;
+    top:5%;
+}
+
+.vertical-nav a:hover{
+    color:#ded0ba;
+}
+/* end vertical nav bar*/
+h1{
+    color:white;
+    position: absolute;
+    top:15%;
+    left:15%;
+    text-align: center;
+    width:90%;
+    text-decoration: underline;
+}
+
+
+/*images*/
+img{
+    height: 35%;
+    width: 20%;
+    margin: 2%;
+    border: solid black;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px  grey;
+    transition: opacity 1sec ease-in-out;
+    z-index: 5;
+}
+img:hover{
+    opacity: 0.1;
+}
+/* end image */
+
+/*labneh controle*/
+#labneh{
+    z-index: 2;
+    position: absolute;
+    top:25%;
+    left:15%;
+}
+#h3-labneh{
+    z-index: 0;
+    position: absolute;
+    top:29%;
+    left:25%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-labneh{
+    z-index: 0;
+    position: absolute;
+    top:35%;
+    left:18%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    width:18%;
+    border: solid #ded0ba;
+    
+}
+/* end labneh controle*/
+
+/*mankoushe controle*/
+#mankoushe{
+    position: absolute;
+    top:25%;
+    left:40%;
+}
+#h3-mankoushe{
+    z-index: 0;
+    position: absolute;
+    top:29%;
+    left:50%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-mankoushe{
+    z-index: 0;
+    position: absolute;
+    top:35%;
+    left:43%;
+    color:black;
+    background-color: #ded0ba;
+    border: solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end mankoushe controle*/
+
+/*kebe controle*/
+#kebe{
+    position: absolute;
+    top:25%;
+    left:65%;
+}
+#h3-kebe{
+    z-index: 0;
+    position: absolute;
+    top:29%;
+    left:73%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-kebe{
+    z-index: 0;
+    position: absolute;
+    top:35%;
+    left:68%;
+    color:black;
+    background-color: #ded0ba;
+    border: solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end kebe controle*/
+
+/*hummus controle*/
+#hummus{
+    position: absolute;
+    top:70%;
+    left:15%;
+}
+#h3-hummus{
+    z-index: 0;
+    position: absolute;
+    top:74%;
+    left:25%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-hummus{
+    z-index: 0;
+    position: absolute;
+    top:81%;
+    left:18%;
+    color:black;
+    background-color: #ded0ba;
+    border:solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end hummus controle*/
+
+/*tabbouleh controle*/
+#tabbouleh{
+    position: absolute;
+    top:70%;
+    left:40%;
+}
+#h3-tabbouleh{
+    z-index: 0;
+    position: absolute;
+    top:74%;
+    left:50%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-tabbouleh{
+    z-index: 0;
+    position: absolute;
+    top:81%;
+    left:43%;
+    color:black;
+    background-color: #ded0ba;
+    border:solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end tabbouleh controle*/
+
+/*warak enab controle*/
+#warak-enab{
+    position: absolute;
+    top:70%;
+    left:65%;
+}
+#h3-warak-enab{
+    z-index: 0;
+    position: absolute;
+    top:74%;
+    left:75%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-warak-enab{
+    z-index: 0;
+    position: absolute;
+    top:81%;
+    left:68%;
+    color:black;
+    background-color: #ded0ba;
+    border:solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end falefel controle*/
+
+/*layele-lebnen controle*/
+#layele-lebnen{
+    position: absolute;
+    top:115%;
+    left:15%;
+}
+#h3-layaliLB{
+    z-index: 0;
+    position: absolute;
+    top:119%;
+    left:23%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-layaliLB{
+    z-index: 0;
+    position: absolute;
+    top:126%;
+    left:18%;
+    color:black;
+    background-color: #ded0ba;
+    border:solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end layele-lebnen controle*/
+
+/*baklava controle*/
+#baklava{
+    position: absolute;
+    top:115%;
+    left:40%;
+}
+#h3-baklava{
+    z-index: 0;
+    position: absolute;
+    top:119%;
+    left:50%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-baklava{
+    z-index: 0;
+    position: absolute;
+    top:126%;
+    left:43%;
+    color:black;
+    background-color: #ded0ba;
+    border:solid #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*end baklava controle*/
+
+/*sfoof controle*/
+#sfouf{
+    position: absolute;
+    top:115%;
+    left:65%;
+}
+#h3-sfouf{
+    z-index: 0;
+    position: absolute;
+    top:119%;
+    left:75%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    text-decoration: underline;
+}
+#p-sfouf{
+    z-index: 0;
+    position: absolute;
+    top:126%;
+    left:68%;
+    color:black;
+    background-color: #ded0ba;
+    border: #ded0ba;
+    border-radius: 5%;
+    width:18%;
+}
+/*sfoof controle*/
